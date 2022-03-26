@@ -1,0 +1,311 @@
+2022-03-25 23:12:22 [logger] INFO [18] 你好
+2022-03-26 19:02:09 [logger] INFO [18] 你好
+2022-03-26 19:22:50 [logger] INFO [18] 你好
+2022-03-26 19:26:07 [logger] INFO [18] 你好
+2022-03-26 19:26:08 [getUserStorm] INFO [23] ------------------
+2022-03-26 19:26:08 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:09 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:09 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:10 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:10 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:10 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:11 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:11 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:11 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:12 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:12 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:12 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:13 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:13 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:26:13 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:45:55 [logger] INFO [18] 你好
+2022-03-26 19:45:56 [getUserStorm] INFO [23] ------------------
+2022-03-26 19:45:56 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:45:56 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:45:57 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_01>, {'case_id': 1, 'module': '用户信息', 'title': '不输入userid无法获取用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid', 'data': None, 'expected_code': 500, 'actual_code': 500, 'response': '<html><title>500: Internal Server Error</title><body>500: Internal Server Error</body></html>', 'auth': None, 'file': None})执行中
+2022-03-26 19:45:57 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:45:57 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:45:57 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:45:57 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_02>, {'case_id': 2, 'module': '用户信息', 'title': '输入正确用户id可以获取用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=1', 'data': None, 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 200, "id": "1", "name": "\\u5c0f\\u660e", "age": 18}', 'auth': None, 'file': None})执行中
+2022-03-26 19:45:57 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:45:57 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:45:57 [getUserStorm] ERROR [45] 执行用例出错 :: 500 != 200
+2022-03-26 19:45:58 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:45:58 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:45:58 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_04>, {'case_id': 4, 'module': '用户信息', 'title': '输入非string类型的用户id获取不到用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=//', 'data': None, 'expected_code': 500, 'actual_code': 500, 'response': '<html><title>500: Internal Server Error</title><body>500: Internal Server Error</body></html>', 'auth': None, 'file': None})执行中
+2022-03-26 19:45:58 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:45:58 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:45:58 [getUserStorm] ERROR [45] 执行用例出错 :: 500 != 200
+2022-03-26 19:45:59 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:45:59 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:45:59 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_06>, {'case_id': 6, 'module': '用户信息', 'title': '输入用户id为非法字符', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=**', 'data': None, 'expected_code': 500, 'actual_code': 500, 'response': '<html><title>500: Internal Server Error</title><body>500: Internal Server Error</body></html>', 'auth': None, 'file': None})执行中
+2022-03-26 19:45:59 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:45:59 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:45:59 [getUserStorm] ERROR [45] 执行用例出错 :: 500 != 200
+2022-03-26 19:45:59 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:45:59 [getUserStorm] ERROR [45] 执行用例出错 :: 404 != 200
+2022-03-26 19:46:00 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:46:00 [getUserStorm] ERROR [45] 执行用例出错 :: 404 != 200
+2022-03-26 19:46:00 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:46:00 [getUserStorm] ERROR [45] 执行用例出错 :: 404 != 200
+2022-03-26 19:46:01 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:46:01 [getUserStorm] ERROR [45] 执行用例出错 :: 500 != 200
+2022-03-26 19:46:01 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:46:01 [getUserStorm] ERROR [45] 执行用例出错 :: 500 != 200
+2022-03-26 19:46:02 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:46:02 [getUserStorm] ERROR [45] 执行用例出错 :: 500 != 200
+2022-03-26 19:46:02 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:46:02 [getUserStorm] ERROR [45] 执行用例出错 :: 500 != 200
+2022-03-26 19:46:03 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:46:03 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:46:03 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_15>, {'case_id': 15, 'module': '用户信息', 'title': '添加header和content-Type输入正确用户id可以获取用户信息', 'headers': 'Content-Type=application/json', 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2?userid=1', 'data': None, 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:46:03 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:48:44 [logger] INFO [18] 你好
+2022-03-26 19:48:45 [getUserStorm] INFO [23] ------------------
+2022-03-26 19:48:45 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:45 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:45 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:48:46 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_02>, {'case_id': 2, 'module': '用户信息', 'title': '输入正确用户id可以获取用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=1', 'data': None, 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 200, "id": "1", "name": "\\u5c0f\\u660e", "age": 18}', 'auth': None, 'file': None})执行中
+2022-03-26 19:48:46 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:48:46 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:46 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:48:46 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_03>, {'case_id': 3, 'module': '用户信息', 'title': '输入错误的用户id获取不到用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=1000', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u6ca1\\u6709\\u8fd9\\u4e2a\\u7528\\u6237"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:48:46 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:48:46 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:47 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:47 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:48:47 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_05>, {'case_id': 5, 'module': '用户信息', 'title': '输入用户id为负数', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=-1', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u6ca1\\u6709\\u8fd9\\u4e2a\\u7528\\u6237"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:48:47 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:48:47 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:47 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:47 [getUserStorm] ERROR [45] 执行用例出错 :: 500 != 200
+2022-03-26 19:48:48 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:48 [getUserStorm] ERROR [45] 执行用例出错 :: 404 != 200
+2022-03-26 19:48:48 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:48 [getUserStorm] ERROR [45] 执行用例出错 :: 404 != 200
+2022-03-26 19:48:49 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:49 [getUserStorm] ERROR [45] 执行用例出错 :: 404 != 200
+2022-03-26 19:48:49 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:49 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:48:50 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_11>, {'case_id': 11, 'module': '用户信息', 'title': '不添加header和content-Tye获取不到用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2?userid=1', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:48:50 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:48:50 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:50 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:48:50 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_12>, {'case_id': 12, 'module': '用户信息', 'title': '添加错误的header无法获取用户信息', 'headers': 'Content-Type=text/html', 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2?userid=1', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:48:50 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:48:50 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:50 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:48:50 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_13>, {'case_id': 13, 'module': '用户信息2', 'title': '不传userid无法获取用户信息', 'headers': 'Content-Type=application/json', 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:48:50 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:48:50 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:50 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:48:51 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_14>, {'case_id': 14, 'module': '用户信息', 'title': '添加header和content-Tye输入错误用户id获取不到用户信息', 'headers': 'Content-Type=application/json', 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2?userid=100', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:48:51 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:48:51 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:48:51 [getUserStorm] ERROR [45] 执行用例出错 :: 200 != 500
+2022-03-26 19:50:46 [logger] INFO [18] 你好
+2022-03-26 19:50:47 [getUserStorm] INFO [23] ------------------
+2022-03-26 19:50:47 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:47 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:47 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:50:47 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_02>, {'case_id': 2, 'module': '用户信息', 'title': '输入正确用户id可以获取用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=1', 'data': None, 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 200, "id": "1", "name": "\\u5c0f\\u660e", "age": 18}', 'auth': None, 'file': None})执行中
+2022-03-26 19:50:47 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:50:47 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:47 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:50:48 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_03>, {'case_id': 3, 'module': '用户信息', 'title': '输入错误的用户id获取不到用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=1000', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u6ca1\\u6709\\u8fd9\\u4e2a\\u7528\\u6237"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:50:48 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:50:48 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:48 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:48 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:50:48 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_05>, {'case_id': 5, 'module': '用户信息', 'title': '输入用户id为负数', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=-1', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u6ca1\\u6709\\u8fd9\\u4e2a\\u7528\\u6237"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:50:48 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:50:48 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:48 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:48 [getUserStorm] ERROR [45] 执行用例出错 :: 500 != 200
+2022-03-26 19:50:49 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:49 [getUserStorm] ERROR [45] 执行用例出错 :: 404 != 200
+2022-03-26 19:50:49 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:49 [getUserStorm] ERROR [45] 执行用例出错 :: 404 != 200
+2022-03-26 19:50:50 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:50 [getUserStorm] ERROR [45] 执行用例出错 :: 404 != 200
+2022-03-26 19:50:50 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:50 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:50:50 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_11>, {'case_id': 11, 'module': '用户信息', 'title': '不添加header和content-Tye获取不到用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2?userid=1', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:50:50 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:50:50 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:50 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:50:51 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_12>, {'case_id': 12, 'module': '用户信息', 'title': '添加错误的header无法获取用户信息', 'headers': 'Content-Type=text/html', 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2?userid=1', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:50:51 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:50:51 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:51 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:50:51 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_13>, {'case_id': 13, 'module': '用户信息2', 'title': '不传userid无法获取用户信息', 'headers': 'Content-Type=application/json', 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:50:51 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:50:51 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:51 [getUserStorm] INFO [41] 测试用例执行成功
+2022-03-26 19:50:52 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_14>, {'case_id': 14, 'module': '用户信息', 'title': '添加header和content-Tye输入错误用户id获取不到用户信息', 'headers': 'Content-Type=application/json', 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2?userid=100', 'data': None, 'expected_code': 500, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:50:52 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:50:52 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:50:52 [getUserStorm] ERROR [45] 执行用例出错 :: 200 != 500
+2022-03-26 19:54:46 [logger] INFO [18] 你好
+2022-03-26 19:54:47 [setMoneyStorm] INFO [24] ------用户余额模块测试------------
+2022-03-26 19:54:47 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:47 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:48 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:48 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:48 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:48 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:54:49 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_03>, {'case_id': 3, 'module': '用户余额', 'title': '正确的用户id可以获取余额', 'headers': None, 'Cookie': None, 'method': 'post', 'url': 'http://localhost:8081/getmoney', 'data': '{\n    "userid":1\n}', 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 200, "userid": 1, "money": 1000}', 'auth': None, 'file': None})执行中
+2022-03-26 19:54:49 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:54:49 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:49 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:54:49 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_04>, {'case_id': 4, 'module': '用户余额', 'title': '错误的请求方法无法获取余额', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getmoney', 'data': '{\n    "userid":1\n}', 'expected_code': 405, 'actual_code': 405, 'response': '<html><title>405: Method Not Allowed</title><body>405: Method Not Allowed</body></html>', 'auth': None, 'file': None})执行中
+2022-03-26 19:54:49 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:54:49 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:49 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:50 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:50 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:50 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:50 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:51 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:51 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:51 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:51 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:54:52 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_09>, {'case_id': 9, 'module': '用户余额', 'title': '错误的请求方式无法修改余额', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/setmoney', 'data': '{\n    "userid":1,\n    "money":2000\n}', 'expected_code': 405, 'actual_code': 405, 'response': '<html><title>405: Method Not Allowed</title><body>405: Method Not Allowed</body></html>', 'auth': "('admin','12345')", 'file': None})执行中
+2022-03-26 19:54:52 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:54:52 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:52 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:52 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:52 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:53 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:53 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:53 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:53 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:54:54 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_13>, {'case_id': 13, 'module': '用户余额', 'title': '正确的账号密码正确的id和余额可以修改余额', 'headers': None, 'Cookie': None, 'method': 'post', 'url': 'http://localhost:8081/setmoney', 'data': '{\n    "userid":1,\n    "money":2000\n}', 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8ba4\\u8bc1\\u5931\\u8d25"}', 'auth': "('admin','12345')", 'file': None})执行中
+2022-03-26 19:54:54 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:54:54 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:54 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:54 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:54 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:55 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:55 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:55 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:55 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:56 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:56 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:56 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:56 [setMoneyStorm] ERROR [53] 执行用例出错 :: 500 != 200
+2022-03-26 19:54:57 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:57 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:54:57 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_20>, {'case_id': 20, 'module': '用户余额', 'title': '正确的token正确的id和money可以修改余额', 'headers': None, 'Cookie': '{\n    "token":"token12345"\n}', 'method': 'post', 'url': 'http://localhost:8081/setmoney', 'data': '{\n    "userid":1,\n    "money":2000\n}', 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u9700\\u8981\\u8ba4\\u8bc1"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:54:57 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:54:57 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:54:57 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:54:58 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_21>, {'case_id': 21, 'module': '用户余额', 'title': '错误的请求方式无法修改余额', 'headers': None, 'Cookie': '{\n    "token":"token12345"\n}', 'method': 'get', 'url': 'http://localhost:8081/setmoney', 'data': '{\n    "userid":1,\n    "money":2000\n}', 'expected_code': 405, 'actual_code': 405, 'response': '<html><title>405: Method Not Allowed</title><body>405: Method Not Allowed</body></html>', 'auth': None, 'file': None})执行中
+2022-03-26 19:54:58 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:57:49 [logger] INFO [18] 你好
+2022-03-26 19:57:49 [run] INFO [16] RunCase执行用例--开始
+2022-03-26 19:57:50 [getUserStorm] INFO [23] ------------------
+2022-03-26 19:57:50 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:50 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:50 [getUserStorm] INFO [42] 测试用例执行成功
+2022-03-26 19:57:51 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_02>, {'case_id': 2, 'module': '用户信息', 'title': '输入正确用户id可以获取用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=1', 'data': None, 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 200, "id": "1", "name": "\\u5c0f\\u660e", "age": 18}', 'auth': None, 'file': None})执行中
+2022-03-26 19:57:51 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:57:51 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:51 [getUserStorm] INFO [42] 测试用例执行成功
+2022-03-26 19:57:51 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_03>, {'case_id': 3, 'module': '用户信息', 'title': '输入错误的用户id获取不到用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=1000', 'data': None, 'expected_code': 500, 'actual_code': 500, 'response': '{"code": 500, "msg": "\\u6ca1\\u6709\\u8fd9\\u4e2a\\u7528\\u6237"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:57:51 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:57:51 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:51 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:51 [getUserStorm] INFO [42] 测试用例执行成功
+2022-03-26 19:57:52 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_05>, {'case_id': 5, 'module': '用户信息', 'title': '输入用户id为负数', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser?userid=-1', 'data': None, 'expected_code': 500, 'actual_code': 500, 'response': '{"code": 500, "msg": "\\u6ca1\\u6709\\u8fd9\\u4e2a\\u7528\\u6237"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:57:52 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:57:52 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:52 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:52 [getUserStorm] ERROR [46] 执行用例出错500 != 200
+2022-03-26 19:57:52 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:52 [getUserStorm] ERROR [46] 执行用例出错404 != 200
+2022-03-26 19:57:53 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:53 [getUserStorm] ERROR [46] 执行用例出错404 != 200
+2022-03-26 19:57:53 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:53 [getUserStorm] ERROR [46] 执行用例出错404 != 200
+2022-03-26 19:57:54 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:54 [getUserStorm] INFO [42] 测试用例执行成功
+2022-03-26 19:57:54 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_11>, {'case_id': 11, 'module': '用户信息', 'title': '不添加header和content-Tye获取不到用户信息', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2?userid=1', 'data': None, 'expected_code': 500, 'actual_code': 500, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:57:54 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:57:54 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:54 [getUserStorm] INFO [42] 测试用例执行成功
+2022-03-26 19:57:55 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_12>, {'case_id': 12, 'module': '用户信息', 'title': '添加错误的header无法获取用户信息', 'headers': 'Content-Type=text/html', 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2?userid=1', 'data': None, 'expected_code': 500, 'actual_code': 500, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:57:55 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:57:55 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:55 [getUserStorm] INFO [42] 测试用例执行成功
+2022-03-26 19:57:55 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_13>, {'case_id': 13, 'module': '用户信息2', 'title': '不传userid无法获取用户信息', 'headers': 'Content-Type=application/json', 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2', 'data': None, 'expected_code': 500, 'actual_code': 500, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:57:55 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:57:55 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:55 [getUserStorm] INFO [42] 测试用例执行成功
+2022-03-26 19:57:56 [wrapers] INFO [14] (<getUserStorm.GetUserTest testMethod=test_get_user_info_14>, {'case_id': 14, 'module': '用户信息', 'title': '添加header和content-Tye输入错误用户id获取不到用户信息', 'headers': 'Content-Type=application/json', 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getuser2?userid=100', 'data': None, 'expected_code': 500, 'actual_code': 500, 'response': '{"code": 500, "msg": "\\u8bf7\\u8bbe\\u7f6eContent-Type\\u4e3aapplication/json"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:57:56 [wrapers] INFO [15] test_get_user_info结束执行
+2022-03-26 19:57:56 [wrapers] INFO [12] test_get_user_info开始执行
+2022-03-26 19:57:56 [getUserStorm] ERROR [46] 执行用例出错200 != 500
+2022-03-26 19:57:56 [setMoneyStorm] INFO [24] ------用户余额模块测试------------
+2022-03-26 19:57:56 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:57:56 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:57:57 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:57:57 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:57:57 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:57:57 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:57:58 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_03>, {'case_id': 3, 'module': '用户余额', 'title': '正确的用户id可以获取余额', 'headers': None, 'Cookie': None, 'method': 'post', 'url': 'http://localhost:8081/getmoney', 'data': '{\n    "userid":1\n}', 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 200, "userid": 1, "money": 1000}', 'auth': None, 'file': None})执行中
+2022-03-26 19:57:58 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:57:58 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:57:58 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:57:58 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_04>, {'case_id': 4, 'module': '用户余额', 'title': '错误的请求方法无法获取余额', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/getmoney', 'data': '{\n    "userid":1\n}', 'expected_code': 405, 'actual_code': 405, 'response': '<html><title>405: Method Not Allowed</title><body>405: Method Not Allowed</body></html>', 'auth': None, 'file': None})执行中
+2022-03-26 19:57:58 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:57:58 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:57:58 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:57:59 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:57:59 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:57:59 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:57:59 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:00 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:00 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:00 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:00 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:58:01 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_09>, {'case_id': 9, 'module': '用户余额', 'title': '错误的请求方式无法修改余额', 'headers': None, 'Cookie': None, 'method': 'get', 'url': 'http://localhost:8081/setmoney', 'data': '{\n    "userid":1,\n    "money":2000\n}', 'expected_code': 405, 'actual_code': 405, 'response': '<html><title>405: Method Not Allowed</title><body>405: Method Not Allowed</body></html>', 'auth': "('admin','12345')", 'file': None})执行中
+2022-03-26 19:58:01 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:58:01 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:01 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:01 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:01 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:02 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:02 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:02 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:02 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:58:03 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_13>, {'case_id': 13, 'module': '用户余额', 'title': '正确的账号密码正确的id和余额可以修改余额', 'headers': None, 'Cookie': None, 'method': 'post', 'url': 'http://localhost:8081/setmoney', 'data': '{\n    "userid":1,\n    "money":2000\n}', 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u8ba4\\u8bc1\\u5931\\u8d25"}', 'auth': "('admin','12345')", 'file': None})执行中
+2022-03-26 19:58:03 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:58:03 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:03 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:03 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:03 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:04 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:04 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:05 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:05 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:05 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:05 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:05 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:05 [setMoneyStorm] ERROR [53] 执行用例出错500 != 200
+2022-03-26 19:58:06 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:06 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:58:06 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_20>, {'case_id': 20, 'module': '用户余额', 'title': '正确的token正确的id和money可以修改余额', 'headers': None, 'Cookie': '{\n    "token":"token12345"\n}', 'method': 'post', 'url': 'http://localhost:8081/setmoney', 'data': '{\n    "userid":1,\n    "money":2000\n}', 'expected_code': 200, 'actual_code': 200, 'response': '{"code": 500, "msg": "\\u9700\\u8981\\u8ba4\\u8bc1"}', 'auth': None, 'file': None})执行中
+2022-03-26 19:58:06 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:58:06 [wrapers] INFO [12] test_get_money_info开始执行
+2022-03-26 19:58:06 [setMoneyStorm] INFO [49] 测试用例执行成功
+2022-03-26 19:58:07 [wrapers] INFO [14] (<setMoneyStorm.SetMoneyTest testMethod=test_get_money_info_21>, {'case_id': 21, 'module': '用户余额', 'title': '错误的请求方式无法修改余额', 'headers': None, 'Cookie': '{\n    "token":"token12345"\n}', 'method': 'get', 'url': 'http://localhost:8081/setmoney', 'data': '{\n    "userid":1,\n    "money":2000\n}', 'expected_code': 405, 'actual_code': 405, 'response': '<html><title>405: Method Not Allowed</title><body>405: Method Not Allowed</body></html>', 'auth': None, 'file': None})执行中
+2022-03-26 19:58:07 [wrapers] INFO [15] test_get_money_info结束执行
+2022-03-26 19:58:07 [upFileStorm] INFO [27] ------上传文件模块测试------------
+2022-03-26 19:58:07 [wrapers] INFO [12] test_up_file开始执行
+2022-03-26 19:58:07 [wrapers] INFO [12] test_up_file开始执行
+2022-03-26 19:58:07 [wrapers] INFO [12] test_up_file开始执行
+2022-03-26 19:58:07 [wrapers] INFO [12] test_up_file开始执行
+2022-03-26 19:58:07 [wrapers] INFO [12] test_up_file开始执行
+2022-03-26 19:58:07 [run] INFO [23] RunCase执行用例--结束
+2022-03-26 19:58:08 [send_email] INFO [47] 发送邮件成功！

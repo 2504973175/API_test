@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/common/py11.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcase/1.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcase/data/py11.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcase/py11.txt" charset="GBK" />
+  </component>
+</project>
